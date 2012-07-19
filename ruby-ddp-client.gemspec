@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Tom Coleman"]
   s.email       = ["tom@thesnail.org"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{A DDP client for ruby, to connect to meteor servers.}
+  s.description = %q{A DDP client for ruby, to connect to meteor servers.}
 
   s.rubyforge_project = "ruby-ddp-client"
 
