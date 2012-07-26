@@ -1,4 +1,5 @@
-***Ruby DDP Client***
+Ruby DDP Client
+===============
 
 A first stab at a DDP client for ruby. Uses [faye-websocket](https://github.com/faye/faye-websocket-ruby), an EventMachine based websocket client.
 
