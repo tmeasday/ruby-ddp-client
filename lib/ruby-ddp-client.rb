@@ -17,7 +17,7 @@ class RubyDdp::Client < Faye::WebSocket::Client
   end
   
   def connect
-    dosend(:msg => :connect)
+    dosend(:msg => :connect, :version => 'pre1', :support => ['pre1'])
   end
   
   def call(method, params = [], &blk)
